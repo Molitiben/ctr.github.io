@@ -1,0 +1,47 @@
+body {
+    background-image: url('007.png');
+    position: -webkit-sticky;
+}
+@font-face {
+        font-family: "starwars" ;
+        src: url('Starjout.ttf');
+    }
+.font0{
+        font-family: serif;
+        color : white;
+        font-size: 20px;
+    }
+.font1{
+    font-family: serif;
+    color : white;
+}
+.font2{
+    font-size: 30px;
+    font-family: starwars;
+    color : white;
+    border: black;
+}
+.font3{
+    font-family: serif;
+    color : white;
+    text-align: left;
+}
+.kotak1{
+    height: 500; 
+    width: auto;
+    border-top: 20px solid #ffa500; 
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 10px;
+}
+.kotak2{
+    
+    padding: 10px; 
+    height: auto; 
+    width: auto; 
+    border-top: 20px solid #ffa500;
+    border-left: none;
+    border-right: none;
+    border-bottom: 20px solid #ffa500;
+}
